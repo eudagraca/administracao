@@ -1,0 +1,2 @@
+
+Route::view('/demo', 'demo')->name('demo');

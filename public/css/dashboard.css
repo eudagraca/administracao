@@ -1,0 +1,143 @@
+aside.main-sidebar{
+    background-color: #050827;
+}
+ion-icon {
+    --ionicon-stroke-width: 35px;
+}
+
+*{
+    font-family: 'Montserrat',
+    sans-serif;
+}
+label.error{
+    color: #ff7f44;
+    font-size: small;
+    font-weight: 600 !important;
+}
+#drop-list{
+    background-color: #3bba7a;
+    color: #fff;
+    border-radius: 1px;
+}
+.uk-tab > .uk-active > a {
+    color: #ffffff!important;
+    border-color: #491165;
+}
+
+#drop-list#rh{
+    background-color: #3b91ba;
+    color: #fff;
+    border-radius: 1px;
+}
+
+
+/* Car Views */
+
+th#table-header {
+    color: #5c5c5c;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+
+select{
+    margin: 5%;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0.6px solid #e5e5e5;
+    background: #fefefefe;
+    outline: none !important;
+}
+
+input[type="search"] {
+    height: 40px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background: transparent;
+    border: 0.6px solid #e5e5e5;
+    outline: none !important;
+}
+
+.dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover
+{
+    border: 1px solid #d7d7d7 !important;
+    background: white linear-gradient(to bottom, #fff 0%, #ffffff 100%) !important;
+    color: #0b2e13;
+}
+
+div#avarias-tb_filter {
+    padding: 10px;
+}
+
+div#avarias-tb_length {
+    padding: 10px;
+}
+
+div#avarias-tb_paginate {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color : rgb(0, 158, 224);
+    border-top: 1px solid #888;
+}
+div#avarias-tb_info {
+    margin-top: 2%;
+    border-top: 1px solid #888;
+    margin-left: 1%;
+}
+
+.dataTables_paginate.paging_simple_numbers{
+    display: block;
+}
+
+input.data_justificacao.name_list.form-control {
+    height: 40px;
+    border-radius: 0px;
+}
+
+button.btn.btn-outline-secondary.border-left-0 {
+    border-radius: 0px;
+}
+
+span.select2-selection.select2-selection--single {
+    height: 40px;
+}
+
+input.data_prolongamento.name_list.form-control {
+    height: 40px;
+}
+
+input.data_escala.name_list.form-control {
+    height: 40px;
+}
+input.data_novaescala.name_list.form-control {
+    height: 40px;
+}
+
+div#avarias-tb-ralatorio_filter {
+    margin: 1%;
+}
+
+div#avarias-tb-ralatorio_length {
+    margin: 1%;
+}
+div#avarias-tb-ralatorio_info {
+    margin: 1%;
+}
+
+div#avarias-tb-ralatorio_paginate {
+    margin: 1%;
+}
+
+button.dt-button, div.dt-button, a.dt-button{
+    background-image: linear-gradient(to bottom, #232323 0%, #232323 100%) !important;
+    border: 1px solid #dcdcdc !important;
+    color: white !important;
+    padding: 15px;
+    text-transform: uppercase !important;
+    border-radius: 5px !important;
+    box-shadow: white !important;
+}
+.uk-overflow-auto {
+    padding: 10px !important;
+}

@@ -1,0 +1,19 @@
+.header-forms{
+    border: 1px dashed;
+}
+span.select2-selection.select2-selection--single {
+    border-radius: 0;
+    user-focus: #0000;
+}
+
+input.line {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 2px 5px;
+}
+label.error {
+    color: red;
+    font-weight: 100 !important;
+    font-size: small;
+}

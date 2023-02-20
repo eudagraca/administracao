@@ -1,0 +1,42 @@
+{
+    "name": "torrix/laravel-ui-uikit",
+    "description": "Laravel UI preset for UIkit.",
+    "keywords": [
+        "laravel",
+        "ui",
+        "uikit"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
+        },
+        {
+            "name": "Matt Fletcher",
+            "email": "matt@torrix.uk"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "roave/security-advisories": "dev-master",
+        "laravel/ui": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Torrix\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Torrix\\Providers\\UikitServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
